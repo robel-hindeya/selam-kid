@@ -1,22 +1,17 @@
 # Dependencies
-node_modules/
-**/node_modules/
-.pnp
+/node_modules
+/.pnp
 .pnp.js
 
 # Testing
-coverage/
-**/coverage/
+/coverage
 
 # Next.js
-.next/
-**/.next/
-out/
-**/out/
+/.next/
+/out/
 
 # Production
-build/
-**/build/
+/build
 
 # Misc
 .DS_Store
@@ -24,16 +19,11 @@ build/
 
 # Local env files
 .env*.local
-**/.env*.local
 !.env.example
-!**/.env.example
 
 # Vercel
 .vercel
-**/.vercel
 
 # TypeScript
 *.tsbuildinfo
-**/*.tsbuildinfo
 next-env.d.ts
-**/next-env.d.ts
